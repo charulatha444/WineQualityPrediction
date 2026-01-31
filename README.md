@@ -56,50 +56,93 @@ Jupyter Notebook
 
 
 1️⃣ Data Loading & Understanding
+
 Load dataset using Pandas
+
 Inspect structure using head(), tail(), and sample()
+
 2️⃣ Data Inspection
+
 Check column names, data types, shape, and summary statistics
+
 3️⃣ Missing Value Analysis
+
 Verify missing values using isnull()
+
 4️⃣ Exploratory Data Analysis (EDA)
+
 Analyze wine quality distribution
+
 Visualize quality scores using count plots
+
 5️⃣ Binary Classification Conversion
+
 Create quality_label column for Good/Bad wine classification
+
 6️⃣ Feature & Target Separation
+
 Separate input features (X) and target variable (y)
+
 7️⃣ Train-Test Split
+
 Split dataset into 80% training and 20% testing data
+
 8️⃣ Feature Scaling
+
 Apply StandardScaler for numerical features
+
 9️⃣ Model Training
+
 Trained and evaluated the following models:
+
 Logistic Regression
+
 K-Nearest Neighbors (KNN)
+
 Decision Tree Classifier
+
 Random Forest Classifier
+
 Support Vector Machine (SVM)
+
 🔟 Model Evaluation
+
 Compare models using accuracy score
+
 Identify best-performing model
+
+
 1️⃣1️⃣ Pipeline & Hyperparameter Tuning
+
 Create ML pipeline
+
 Apply GridSearchCV for parameter tuning
+
+
 📈 Results
+
 Tree-based and SVM models performed better due to their ability to handle complex patterns
+
 Feature scaling improved performance for distance-based models
+
 Hyperparameter tuning helped achieve optimal model accuracy
 
 ✅ Key Learnings
+
 Importance of data preprocessing and EDA
+
 Handling classification problems in real-world ML systems
+
 Comparing multiple ML models effectively
+
 Using pipelines to avoid data leakage
+
 Improving performance through hyperparameter tuning
 
 🚀 Conclusion
+
 This project reflects a real-world Machine Learning application where data understanding, preprocessing, model selection, and evaluation are equally important.
+
 It provides a strong foundation for building production-ready ML systems.
 
 📁 How to Run the Project
@@ -110,5 +153,6 @@ Open the Jupyter Notebook
 
 Run all cells step-by-step
 
-👤 Author
+👤 Author:-
+
 Charu Latha
